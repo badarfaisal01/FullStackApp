@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    }
-  ]
+  "projects": {
+    "frontend": "Web_Project_Frontend_/my-project",
+    "backend": "Web_Project_Backend"
+  },
+  "frontend": "Get the running and public optimized" 
+  
 }
