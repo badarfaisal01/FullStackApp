@@ -12,7 +12,7 @@ export const getAdminDashboard = async() => {
       };
     
       try {
-        const response = await axios.get(`${BACKEND_URL}/adminDashboard`, config);
+        const response = await axios.get(`${full-stack-app-backend.vercel.app}/adminDashboard`, config);
         console.log(response.data);
         return response.data;
       } catch (error) {
